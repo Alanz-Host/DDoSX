@@ -8,7 +8,7 @@
 DESCRIPTION
 -----------
 
-This is reworked version of [DRipper](https://gist.github.com/scamp/33807688d0ebdcfbd4c29a4b992a8b54).
+This is reworked version of [DDoSX](https://gist.github.com/scamp/33807688d0ebdcfbd4c29a4b992a8b54).
 This script support HTTP/TCP/UDP flood attack. We recommend using this script for your own test purposes in the local (on-premise) environment to improve your own web services against DDoS attacks.
 
 ## Prerequisites
