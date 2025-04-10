@@ -144,14 +144,14 @@ Example: dripper -t 100 -m tcp-flood -s tcp://192.168.0.1:80
 
 ```bash
 # HTTP flood
-docker run -it --rm alexmon1989/ddosx:latest -t 100 -m http-flood -s http://127.0.0.1:80 
+docker run -it --rm Alanz-Host/ddosx:latest -t 100 -m http-flood -s http://127.0.0.1:80 
 # or
-docker run -it --rm alexmon1989/ddosx:latest -t 100 -s http://127.0.0.1:80
+docker run -it --rm Alanz-Host/ddosx:latest -t 100 -s http://127.0.0.1:80
 # or even
-docker run -it --rm alexmon1989/ddosx:latest -s http://127.0.0.1
+docker run -it --rm Alanz-Host/ddosx:latest -s http://127.0.0.1
 
 # TCP flood
-docker run -it --rm alexmon1989/ddosx:latest -t 100 -l 2048 -s tcp://127.0.0.1:80 
+docker run -it --rm Alanz-Host/ddosx:latest -t 100 -l 2048 -s tcp://127.0.0.1:80 
 
 # UDP flood
 docker run -it --rm Alanz-Host/ddosx:latest -t 100 -l 2048 -s udp://127.0.0.1:80 
