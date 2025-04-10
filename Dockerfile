@@ -10,4 +10,4 @@ RUN apk add --update \
     rm -rf /var/cache/apk/*
 RUN pip install --upgrade pip -e .
 
-ENTRYPOINT ["dripper"]
+ENTRYPOINT ["ddosx"]
