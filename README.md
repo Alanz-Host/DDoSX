@@ -58,7 +58,7 @@ This script support HTTP/TCP/UDP flood attack. We recommend using this script fo
                   It is just like a server testing script and Your IP is visible.
                                 Please, make sure you are ANONYMOUS!
 
-                             https://github.com/alexmon1989/russia_ddos
+                             https://github.com/Alanz-Host/DDoSX
 
 
  ──────────────────────────────────────────────────────────────────────────────────────────────────
@@ -201,18 +201,3 @@ pytest --cov-report=html:./htmlcov
 # License
 
 This project is distributed under the MIT License, see [LICENSE](./LICENSE) for more information.
-
-<!-- External links -->
-[actions build badge]: https://github.com/alexmon1989/russia_ddos/actions/workflows/build.yml/badge.svg
-[actions build link]:  https://github.com/alexmon1989/russia_ddos/actions/workflows/build.yml
-
-[docker pulls link]:   https://hub.docker.com/r/alexmon1989/dripper
-[docker pulls badge]:  https://img.shields.io/docker/pulls/alexmon1989/dripper
-[dockerhub link]:      https://hub.docker.com/r/alexmon1989/dripper/tags
-[dockerhub badge]:     https://img.shields.io/docker/v/alexmon1989/dripper?label=DockerHub
-
-[kube-dripper-link]:   https://github.com/denismakogon/kube-dripper
-[kube-dripper-readme]: https://github.com/denismakogon/kube-dripper/blob/main/README.md
-
-[license badge]:       https://img.shields.io/badge/License-MIT-yellow.svg
-[license link]:        ./LICENSE
