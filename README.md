@@ -55,11 +55,11 @@ This script support HTTP/TCP/UDP flood attack. We recommend using this script fo
                                            ╚═════╝░╚═════╝░░╚════╝░╚═════╝░╚═╝░░╚═╝
                                                                     v2.0.0
 
-                  It is the end user's responsibility to obey all applicable laws.
-                  It is just like a server testing script and Your IP is visible.
-                                Please, make sure you are ANONYMOUS!
+                                      It is the end user's responsibility to obey all applicable laws.
+                                      It is just like a server testing script and Your IP is visible.
+                                      Please, make sure you are ANONYMOUS!
 
-                             https://github.com/Alanz-Host/DDoSX
+                                                     https://github.com/Alanz-Host/DDoSX
 
 
  ──────────────────────────────────────────────────────────────────────────────────────────────────
